@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+    
+:root {
+  --gradient-gray: linear-gradient(to right, #131314, #3A3A3A, #131314);
+  --gradient-purple: linear-gradient(
+    to right,
+    rgba(171, 6, 213, 0.7),
+    rgba(141, 6, 213, 0.3),
+    rgba(6, 6, 6, 0.3)
+  );  --gradient-purple2: linear-gradient(to right, #060606 1%,#AB06D5 100%);
+
+  }
+  
+  .gradient-purple {
+    background: var(--gradient-purple);
+  }
+  
+  .gradient-purple2 {
+    background: var(--gradient-purple2);
+  }
+
+  .gradient-gray {
+    background: var(--gradient-gray);
+  }
+
+  body{
+    background-color: black;
+  }
